@@ -20,6 +20,31 @@
     border-radius: 10px;
 }
 
-.container-center-img {
-    background-color: hsl(225, 100%, 94%);
+.container-center-img{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 20px 20px;
 }
+
+.container-center-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-center-text.p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container-center-text-plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-center-text-plan-text
